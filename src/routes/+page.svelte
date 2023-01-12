@@ -1,3 +1,7 @@
+<script>
+    import Contact from "../components/contact.svelte"
+    import Footer from "../components/footer.svelte"
+</script>
 <article class="main">
     <div class="art-main">
         <main>
@@ -9,6 +13,10 @@
                 <h1>this app is for you</h1>
             </div>
         </footer>
+        <section class="footer-section">
+            <Contact />
+            <Footer />
+        </section>
     </div>
 </article>
 <style lang="scss">
@@ -22,10 +30,10 @@
 }
     article{
         .art-main{
-            padding: 10vh 0 0 0;
+            padding: 10vh 0 30vh 0;
             main{
                 margin: auto;
-                width: 300px;
+                width: 250px;
                 img{
                     margin: auto;
                     width: 100%;
