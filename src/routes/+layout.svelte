@@ -19,7 +19,8 @@
       <slot />
     </main>
     <footer>
-      <div class="ft"><a href="https://grocerylistmw.netlify.app">LAUNCH APP</a></div>
+      <div class="ft"><a href="/app/budgetapp.apk" download="budget app | developer africa mw">DOWNLOAD APP</a></div>
+     
     </footer>
   </div>
 </div>

@@ -32,11 +32,11 @@
         padding: 20px 0;
         .art-cnt{
             text-align: center;
-            border: var(--gn) 0.9px solid;
             padding: 20px;
             header{
                 h1{
-                    @include fnt(var(--tc), 1rem, 500);
+                    @include fnt(var(--tc), 0.8rem, 500);
+                    letter-spacing: 1.3px;
                    
                     
                 }
@@ -68,7 +68,7 @@
                         padding: 20px 0;
                         a{
                             text-decoration: none;
-                            @include fnt(var(--gn), 0.9rem, 450);
+                            @include fnt(var(--gn), 0.75rem, 450);
                            
 
                         }
