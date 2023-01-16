@@ -9,7 +9,7 @@
             </div>
         </main>
         <footer>
-            <p>&copy peterbutao | developer africa mw 2023</p>
+            <p>&copy peterbutao|developerafricamw2023</p>
         </footer>
     </div>
 </article>

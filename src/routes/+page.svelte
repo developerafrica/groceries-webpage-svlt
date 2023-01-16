@@ -50,8 +50,10 @@
     
 }
     article{
+        max-width: 800px;
+        margin: auto;
         .art-main{
-            padding: 10vh 0 30vh 0;
+            padding: 10vh 0 0 0;
             main{
                 margin: auto;
                 width: 250px;
@@ -79,7 +81,7 @@
             .launch{
                 background: gold;
                 padding: 10px;
-                margin: 10px;
+                margin: 15vh 10px;
                 border-radius: 4px;
                 header{
                     display: flex;
@@ -95,8 +97,8 @@
                         h1{
                             @include fnt(var(--tc), 1rem, 700);
                             margin: 0;
-                            padding: 0;
                             letter-spacing: 1.3px;
+                            padding: 0;
                         }
                         p{
                             @include fnt(var(--tc), 0.7rem, 600)
@@ -118,6 +120,10 @@
                     }
                 }
 
+            }
+            .footer-section{
+                background: rgba(0, 0, 0, 0.1);
+                padding: 10px 0 30vh 0;
             }
 
         }
